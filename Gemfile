@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# gem j-query
+gem 'jquery-rails'
+
 # front end gems
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
@@ -44,7 +47,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "better_errors"
   gem "binding_of_caller"
-  gem 'annotate'
 end
 
 group :development do
