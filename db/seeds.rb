@@ -25,12 +25,12 @@ restaurants_attributes = [
     name:         "Le pré catelan",
     address:      "route de Suresnes 75016 Paris",
     category:     "French"
-  }
+  },
     {
     name:         "Le comptoir Japonais",
     address:      "rue Ternaux 75011 Paris",
     category:     "Japanese"
-  }
+  },
   {
     name:         "Le bookie",
     address:      "15 rue Trévise, 75009 Paris",
