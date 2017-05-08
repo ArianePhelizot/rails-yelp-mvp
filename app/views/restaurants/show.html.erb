@@ -3,5 +3,14 @@
   <p><%= @restaurant.address %></p>
   <p><%= @restaurant.phone_number %></p>
   <p><%= @restaurant.category %></p>
+  <div class="comments">
+    <h2>Comments</h2>
+    <ol>
+      <% @restaurant.reviews.each do |review| %>
+      <li>Rating: <%= review.rating %>: <%= review.content %> - </li>
+      <% end %>
+    </ol>
+   <%= link_to "Add a comment", new_restaurant_review_path(@restaurant) %>
+  </div>
 </div>
 
